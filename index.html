@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atenção Meu Pau na tua mão</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,900;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="header">
+        <a href="#" class="logo">Bruh</a>
+        <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Work</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </header>
+    <section>
+        <img src="stars.png" id="stars">
+        <img src="moon.png" id="moon">
+        <img src="mountains_behind.png" id="moutains_back">
+        <h2 id="text">Moonlight</h2>
+        <a href="#sec" id  ="btn">Explore</a>
+        <img src="mountains_front.png" id="mountains_front">
+    </section>
+    <div class="sec" id="sec">
+        <h2>parawqeadsad ash fuias</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium deleniti, delectus quos facilis error perspiciatis nulla fugiat nobis veniam quasi adipisci ullam harum neque tempora odio ipsum? Pariatur animi porro deserunt distinctio quidem modi aut dicta. Temporibus nihil deserunt doloremque recusandae. Neque soluta voluptatem nam adipisci libero, reiciendis ipsa eos aspernatur officiis autem perferendis tempore quo molestias obcaecati sapiente asperiores cupiditate consequatur hic quisquam. Illo, fugiat eveniet sunt aspernatur excepturi aliquam corporis aliquid. Repellat quos voluptates veniam blanditiis tenetur hic neque harum unde, nihil itaque, quia cum quas, similique illum? Molestias, deleniti magnam. Expedita reiciendis sed veniam architecto sapiente, praesentium velit  br accusantium vel quibusdam saepe assumenda beatae ut neque temporibus nesciunt commodi magni explicabo soluta <br> distinctio, aspernatur ducimus unde. Minima, magni. Doloribus velit nobis ducimus aspernatur quibusdam debitis quisquam quidem. Mollitia, beatae eligendi! Similique nulla nisi tempore doloremque br error deserunt aut iusto vero. Pariatur rerum molestias sint praesentium officiis esse doloremque voluptatem? Suscipit amet inventore debitis libero. Voluptates architecto itaque accusantium nesciunt magni, cum aspernatur accusamus nihil harum a in tempore nobis, libero repellendus eaque repudiandae fugiat quas esse. Laboriosam omnis iste, earum eum veritatis molestias expedita numquam aut voluptatum possimus inventore magni necessitatibus voluptatem fugiat, illum dolorum adipisci repudiandae doloremque. Minima aperiam perspiciatis voluptatum voluptate impedit assumenda eum quisquam sint officiis. Iusto, minus magnam neque, quia modi et aspernatur facilis molestiae officia reiciendis saepe voluptates qui. Nemo odio, fugiat expedita facere placeat facilis ab eum itaque eaque cupiditate, reprehenderit voluptatibus ea earum autem archibrtectobr <br> nisi tenetur asperiores quis aut, a odit? Esse libero, placeat sed quae, pariatur tempore molestiae hic laborum unde, amet quia. Odio, modi. Tenetur expedita doloribus aut incidunt vitae quia aliquam facere ea aspernatur in beatae odit, animi sequi deserunt sed reiciendis, ipsa officia eos suscipit quibusdam non nam magni quo. Similique, asperiores dignissimos labore mollitia, velit nostrum laboriosam quis suscipit tenetur ducimus doloremque officia aliquid repellendus est odio itaque illo sit. Sed ut animi ipsam molestias incidunt. Doloremque eveniet iste illo iure nisi ut perferendis obcaecati mollitia modi id error beatae sequi architecto minus porro esse quod non debitis, optio, ullam laborum quas et vel? Tenetur, deserunt esse! Magnam, facere dolorum. Soluta dolor minus, quia aspernatur corporis sit doloremque. Quae nemo eum vel placeat enim assumenda, pariatur quisquam est ut ipsum rerum deserunt saepe numquam id molestias accusamus repellat explicabo non aliquam maxime. Id a quis consectetur atque sed consequuntur <br> iste eius quibusdam, error aut, unde illo cupiditate amet. Debitis, quidem enim nobis ea placeat sit, porro error aliquid aspernatur ab quisquam harum hic pariatur tempore voluptates. Quidem illum autem molestiae beatae, pariatur fugiat? Aut ratione, provident unde, quidem ea ullam quasi consequatur quisquam voluptate possimus aliquam molestiae. Laudantium harum porro distinctio soluta sit officia, provident quos saepe unde laboriosam aliquid ad blanditiis tenetur! Hic odio obcaecati dicta minima minus unde expedita autem ducimus aliquid deserunt ipsum corporis cupiditate ipsam tempora architecto quae quam quis doloremque, quas ipsa rem ea dolorem. Suscipit, possimus, dolor in, atque dicta quasi repudiandae quos error maxime delectus dolorem sed?</p>
+    </div>
+    <script>
+        let stars = document.getElementById('stars');
+        let moon = document.getElementById('moon');
+        let moutains_back = document.getElementById('moutains_back');
+        let text = document.getElementById('text');
+        let btn = document.getElementById('btn');
+        let mountains_front = document.getElementById('mountains_front');
+        let header=document.getElementById('header');
+        window.addEventListener('scroll', function(){
+            let value = window.scrollY;
+            stars.style.left = value * 0.25 + 'px';
+            moon.style.top = value * 1.05 + 'px';
+            moutains_back.style.top = value * 1.05 + 'px';
+            mountains_front.style.top = value * 0 + 'px';
+            text.style.marginRight = value * 4 + 'px';
+            text.style.margintop = value * 1.5 + 'px';
+            btn.style.margintop = value * 1.5 + 'px';
+
+        })  
+    </script>
+</body>
+</html>
